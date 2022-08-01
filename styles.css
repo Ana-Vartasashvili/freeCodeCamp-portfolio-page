@@ -16,9 +16,7 @@ body {
 }
 
 #navbar {
-  display: flex;
   justify-content: flex-end;
-  align-items: center;
   gap: 2rem;
   width: 100%;
   background-color: #be3144;
@@ -118,8 +116,6 @@ body {
 }
 
 .btn {
-  display: flex;
-  align-items: center;
   padding: 1.3rem 2rem;
   margin: 0 auto;
   font-size: 2.5rem;
@@ -149,9 +145,7 @@ body {
   width: 100%;
   height: calc(100vh - 14rem);
   color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   background-color: #303841;
   text-align: center;
   padding: 30rem 2.5rem;
@@ -169,17 +163,12 @@ body {
 }
 
 .social-media-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   column-gap: 5rem;
   row-gap: 1rem;
   flex-wrap: wrap;
 }
 
 #profile-link {
-  display: flex;
-  align-items: center;
   column-gap: 0.5rem;
   font-size: 2.7rem;
   cursor: pointer;
@@ -188,4 +177,17 @@ body {
 
 #profile-link:hover {
   transform: translateY(0.7rem);
+}
+
+#footer {
+  background-color: #303841;
+  color: #fff;
+  border-top: 5px solid #be3144;
+  padding: 4rem 2rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
