@@ -144,3 +144,42 @@ body {
 .btn:hover .projects-icon {
   transform: translateX(4px) translateY(-1px);
 }
+
+#contact {
+  width: 100%;
+  height: calc(100vh - 14rem);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #303841;
+  text-align: center;
+  padding: 30rem 2.5rem;
+}
+
+.contact-heading {
+  font-size: 6.3rem;
+  font-weight: 600;
+}
+
+.contact-text {
+  font-style: italic;
+  font-weight: 200;
+  margin-bottom: 6rem;
+}
+
+.social-media-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5rem;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+#profile-link {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-size: 2.7rem;
+}
