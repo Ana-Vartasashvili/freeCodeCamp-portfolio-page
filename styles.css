@@ -182,12 +182,20 @@ body {
 #footer {
   background-color: #303841;
   color: #fff;
+  font-weight: 300;
+  font-size: 2rem;
   border-top: 5px solid #be3144;
-  padding: 4rem 2rem;
+  padding: 4rem 0;
+  justify-content: space-evenly;
 }
 
 .flex {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer-text a {
+  color: #fff;
+  text-decoration: none;
 }
