@@ -21,16 +21,17 @@ body {
   gap: 3rem;
   width: 100%;
   background-color: #be3144;
-  padding: 2rem 3rem 2rem 1.5rem;
   position: fixed;
   z-index: 9999;
 }
 
 .nav-item {
   list-style: none;
+  padding: 2rem 2rem;
 }
 
-#navbar a {
+#navbar a:link,
+#navbar a:visited {
   color: #fff;
 }
 
@@ -72,7 +73,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   column-gap: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3.8rem;
 }
 
 .projects-title {
@@ -89,14 +90,16 @@ body {
   margin-bottom: 6rem;
 }
 
-.projects a {
+.projects a:link,
+.projects a:visited {
   background-color: #3a3d40;
   margin-bottom: 4rem;
   border-radius: 4px;
   transition: transform 0.3s;
 }
 
-.projects a:hover {
+.projects a:hover,
+.projects a:active {
   transform: scale(1.05);
 }
 
@@ -138,17 +141,17 @@ body {
   transition: background-color 0.3s ease-out;
 }
 
-.btn:hover {
+.projects-link:hover .btn {
   background-color: #be3144;
+}
+
+.projects-link:hover .projects-icon {
+  transform: translateX(4px) translateY(-1px);
 }
 
 .projects-icon {
   transform: translateY(-1px);
   transition: transform 0.3s ease-out;
-}
-
-.btn:hover .projects-icon {
-  transform: translateX(4px) translateY(-1px);
 }
 
 #contact {
@@ -185,7 +188,8 @@ body {
   transition: transform 0.4s;
 }
 
-#profile-link:hover {
+#profile-link:hover,
+#profile-link:active {
   transform: translateY(0.7rem);
 }
 
