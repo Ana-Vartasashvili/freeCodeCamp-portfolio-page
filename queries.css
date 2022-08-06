@@ -1,0 +1,105 @@
+@media (max-width: 75rem) {
+  html {
+    font-size: 58%;
+  }
+
+  .heading {
+    font-size: 5.5rem;
+    line-height: 0.8;
+  }
+
+  #welcome-section span {
+    font-size: 2.8rem;
+  }
+
+  .contact-heading {
+    font-size: 5rem;
+  }
+
+  .contact-text {
+    font-size: 2.4rem;
+    margin-bottom: 4.5rem;
+  }
+
+  #profile-link {
+    font-size: 2.2rem;
+  }
+
+  #footer {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 56rem) {
+  html {
+    font-size: 40%;
+  }
+
+  body {
+    font-size: 2rem;
+  }
+
+  .projects a:hover {
+    transform: scale(1);
+  }
+
+  .projects-section-title {
+    font-size: 3.3rem;
+  }
+
+  .contact-heading {
+    font-size: 4rem;
+  }
+
+  .contact-text {
+    margin-bottom: 3.6rem;
+  }
+
+  #profile-link {
+    font-size: 2.2rem;
+  }
+
+  #footer {
+    font-size: 1.5rem;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 35rem) {
+  html {
+    font-size: 35%;
+  }
+  .heading {
+    font-size: 4.3rem;
+  }
+
+  #welcome-section span {
+    font-size: 2.3rem;
+  }
+
+  .contact-heading {
+    font-size: 3.4rem;
+  }
+
+  .contact-text {
+    font-size: 1.8rem;
+  }
+
+  #profile-link {
+    font-size: 1.8rem;
+  }
+
+  #footer {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 22.8rem) {
+  html {
+    font-size: 30%;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
